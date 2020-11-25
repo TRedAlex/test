@@ -51,4 +51,4 @@ function img() {
 exports.js = js
 exports.css = styles
 exports.fonts = fonts
-exports.default = series(parallel(js, styles, gwatch))
+exports.default = series(parallel(js, styles, fonts, img, gwatch))
